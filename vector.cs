@@ -360,7 +360,14 @@ namespace Vectores
                 r.v[c.v[i]] = v[i];
             r.n = n;
         }
-
+        public void OrdBurb()
+        {
+            int t, d;
+            for t=n;t>=2；t--）
+            for (d = 1; d<= t - 1; d++) 
+                if (v[d] › v[d + 1]) 
+                inter (d, d+1);
+        }
     }
 
 }
