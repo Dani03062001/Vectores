@@ -157,5 +157,10 @@ namespace Vectores
            v1.OrdBurb();
            textBox6.Text = v1.Descargar();
         }
+        private void ordBurbInvToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           v1.OrdBurbInv():
+           textBox6.Text = v1.Descargar();
+        }
     }
 }
