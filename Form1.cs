@@ -42,7 +42,7 @@ namespace Vectores
         {
             int i, n1;
             v1 = new vector();
-            n1 = int.Parse(Interaction.InputBox("N° de elementos"));
+            n1 = int.Parse(Interaction.InputBox("NÂ° de elementos"));
             for (i = 1; i <= n1; i++)
             {
                 v1.Cargar(int.Parse(Interaction.InputBox("Elementos" + i + ":")));
@@ -151,6 +151,11 @@ namespace Vectores
         {
             v1.OrdCont(ref v2);
             textBox6.Text = v2.Descargar();
+        }
+        private void ordBurbujaToolStripMenuItem Click(object sender, EventArgs e)
+        {
+           v1.OrdBurb();
+           textBox6.Text = v1.Descargar();
         }
     }
 }
