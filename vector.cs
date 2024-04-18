@@ -368,6 +368,14 @@ namespace Vectores
                 if (v[d] › v[d + 1]) 
                 inter (d, d+1);
         }
+        public void OrdBurbInv()
+        {
+            int t, d;
+            for (t = 1; t <= n-1; t++)
+            for (d = n; d ›= t + 1; d--)
+                 if (v[d] < v[d -1])
+                     Inter(d, d - 1);
+        }
     }
 
 }
