@@ -162,5 +162,10 @@ namespace Vectores
            v1.OrdBurbInv():
            textBox6.Text = v1.Descargar();
         }
+        private void ordInserToolStripMenuItem Click(object sender, EventArgs e)
+        {
+           v1.OrdxInsercion(ref V2);
+           textBox6.Text = v2.Descargar();
+        }
     }
 }
