@@ -376,6 +376,29 @@ namespace Vectores
                  if (v[d] < v[d -1])
                      Inter(d, d - 1);
         }
+        public void Insercion(int ele)
+        {
+            int d; 
+            bool b;
+            d = n;b = true;
+            while((d>=1) && (b==true))
+            {
+                if (v[d] › ele)
+                {
+                  v[d + 1] = v[d]; d--;
+                }
+                else
+                   b = false;
+            }
+                v[d+1)= ele;
+                n++； 
+         }
+        public void OrdxInsercion(ref r) 
+        {
+            int i；
+            for (1 = 1; i <= n; i++)
+            r.Inser(v[1]);
+        }
     }
 
 }
