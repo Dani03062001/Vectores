@@ -399,6 +399,23 @@ namespace Vectores
             for (1 = 1; i <= n; i++)
             r.Inser(v[1]);
         }
+        public OrdxInsercionV2()
+        {
+            int d,e, ele; 
+            bool b;
+            for (e = 2; e <= n; e++)
+            {
+               ele = v[e];
+               d = e-1; b = true;
+               whi1e （(d >= 1） &8 （b =a true)）
+               {
+                 if (v[d] › ele)
+                 {
+   v[d + 1] • v[d]; d-*;
+else b a false;
+}
+v[d + 1] = ele;
+        }
     }
 
 }
